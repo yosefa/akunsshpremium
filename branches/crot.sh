@@ -1,5 +1,5 @@
 #!/bin/bash
-# Jangan lupa mampir www.ari-f.com
+# https://www.facebook.com/groups/akunsshpremium
 echo "------------------------------------------------------"
 echo "USERNAME          EXP DATE          KETERANGAN        "
 echo "------------------------------------------------------"
@@ -18,3 +18,4 @@ echo "------------------------------------------------------"
 echo "Jumlah akun: $JUMLAH user"
 echo "------------------------------------------------------"
 echo -e "\e[1;33;44m[ Akun SSH Premium ]\e[0m"
+# thx to ari-f
