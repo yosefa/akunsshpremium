@@ -1,0 +1,9 @@
+wget https://akunsshpremium.googlecode.com/svn/branches/crot.sh --output-document="/usr/bin/crot"
+wget https://akunsshpremium.googlecode.com/svn/branches/add.sh --output-document="/usr/bin/add"
+wget https://akunsshpremium.googlecode.com/svn/branches/hapus.sh --output-document="/usr/bin/hapus"
+wget https://akunsshpremium.googlecode.com/svn/branches/lagi.sh --output-document="/usr/bin/lagi"
+wget https://akunsshpremium.googlecode.com/svn/branches/tambah.sh --output-document="/usr/bin/tambah"
+chmod +x /usr/bin/add
+chmod +x /usr/bin/crot
+chmod +x /usr/bin/hapus
+chmod +x /usr/bin/lagi
