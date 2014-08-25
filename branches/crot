@@ -12,7 +12,7 @@ do
         printf "%-17s %-17s %2s\n" "$AKUN" "$exp" "$kom"
         fi
 done < /etc/passwd
-JUMLAH="$(awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd | wc -l$
+JUMLAH="$(awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd | wc -l)"
 echo "------------------------------------------------------"
 echo "Jumlah akun: $JUMLAH user"
 echo "------------------------------------------------------"
