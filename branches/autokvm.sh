@@ -1,0 +1,10 @@
+wget https://akunsshpremium.googlecode.com/svn/branches/add --no-check-certificate
+wget https://akunsshpremium.googlecode.com/svn/branches/crot --no-check-certificate
+wget https://akunsshpremium.googlecode.com/svn/branches/hapus --no-check-certificate
+wget https://akunsshpremium.googlecode.com/svn/branches/lagi --no-check-certificate
+wget https://akunsshpremium.googlecode.com/svn/branches/tambah --no-check-certificate
+chmod +x add
+chmod +x crot
+chmod +x hapus
+chmod +x lagi
+chmod +x tambah
