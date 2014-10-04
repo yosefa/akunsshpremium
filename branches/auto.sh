@@ -10,3 +10,10 @@ chmod +x hapus
 chmod +x lagi
 chmod +x tambah
 chmod +x trial
+apt-get install dos2unix
+dos2unix add
+dos2unix crot
+dos2unix hapus
+dos2unix lagi
+dos2unix tambah
+dos2unix trial
