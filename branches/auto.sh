@@ -6,6 +6,7 @@ wget https://akunsshpremium.googlecode.com/svn/branches/tambah
 wget https://akunsshpremium.googlecode.com/svn/branches/trial
 wget https://akunsshpremium.googlecode.com/svn/branches/masuk
 wget https://akunsshpremium.googlecode.com/svn/branches/expuser
+wget https://akunsshpremium.googlecode.com/svn/branches/un.sh
 chmod +x add
 chmod +x crot
 chmod +x hapus
@@ -14,6 +15,7 @@ chmod +x tambah
 chmod +x trial
 chmod +x masuk
 chmod +x expuser
+chmod +x un.sh
 apt-get install dos2unix
 dos2unix add
 dos2unix crot
@@ -23,3 +25,4 @@ dos2unix tambah
 dos2unix trial
 dos2unix masuk
 dos2unix expuser
+dos2unix un.sh
