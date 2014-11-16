@@ -4,3 +4,5 @@ usermod -e $tgl $1
 if [[ $2 == 1 ]]; then
 passwd -u $1
 fi
+expuser
+cp -R /root/alluser.txt /home/coeg/
