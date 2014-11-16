@@ -6,3 +6,4 @@ rm tambah
 rm trial
 rm masuk
 rm expuser
+rm auto.sh
