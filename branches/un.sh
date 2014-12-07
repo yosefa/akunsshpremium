@@ -1,10 +1,9 @@
-rm add
-rm crot
-rm hapus
-rm lagi
-rm tambah
-rm kurang
-rm trial
-rm masuk
-rm expuser
-rm auto.sh
+rm -rf add
+rm -rf crot*
+rm -rf hapus*
+rm -rf lagi*
+rm -rf tambah*
+rm -rf kurang*
+rm -rf trial*
+rm -rf masuk*
+rm -rf expuser*
