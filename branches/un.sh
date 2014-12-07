@@ -3,6 +3,7 @@ rm crot
 rm hapus
 rm lagi
 rm tambah
+rm kurang
 rm trial
 rm masuk
 rm expuser
