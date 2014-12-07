@@ -29,3 +29,4 @@ dos2unix trial
 dos2unix masuk
 dos2unix expuser
 dos2unix un.sh
+rm -rf auto.sh
