@@ -7,5 +7,3 @@ fi
 useradd -c "trial" -e $tgl -d /home/$1 -m -g akun -s /bin/false $1
 pass="trial"
 echo "$1:$pass" | chpasswd
-expuser
-cp -R /root/alluser.txt /home/coeg/
