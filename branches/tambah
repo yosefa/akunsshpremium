@@ -9,11 +9,9 @@ tambah="$a $bln $tgl $jam $Z $thn"
 if [[ -n $2 ]]; then
 baru=`date '+%C%y/%m/%d' -d "$tambah+$2 days"`
 else
-baru=`date '+%C%y/%m/%d' -d "$tambah+31 days"`
+baru=`date '+%C%y/%m/%d' -d "$tambah+30 days"`
 fi
 usermod -e $baru $1
 if [[ $3 == 1 ]]; then
 passwd -u $1
 fi
-expuser
-cp -R /root/alluser.txt /home/coeg/
