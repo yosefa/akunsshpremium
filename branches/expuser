@@ -2,8 +2,6 @@
 echo "" > /root/infouser.txt
 echo "" > /root/expireduser.txt
 echo "" > /root/alluser.txt
-vnstat -d > /root/coeg.txt
-cp -R /root/coeg.txt /home/coeg/
 
 cat /etc/shadow | cut -d: -f1,8 | sed /:$/d > /tmp/expirelist.txt
 totalaccounts=`cat /tmp/expirelist.txt | wc -l`
