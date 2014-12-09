@@ -2,5 +2,3 @@
 tgl=`date '+%C%y/%m/%d' -d "+30 days"`
 usermod -e $tgl $1
 passwd -u $1
-expuser
-cp -R /root/alluser.txt /home/coeg/
