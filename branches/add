@@ -6,5 +6,3 @@ tgl=`date '+%C%y/%m/%d' -d "$tambah+30 days"`
 fi
 useradd -c "$1" -e $tgl -d /home/$2 -m -g akun -s /bin/false $2
 echo "$2:$3" | chpasswd
-expuser
-cp -R /root/alluser.txt /home/coeg/
