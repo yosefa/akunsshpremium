@@ -15,5 +15,5 @@ usermod -e $baru $1
 if [[ $3 == 1 ]]; then
 passwd -u $1
 fi
-expuser
-cp -R /root/alluser.txt /home/coeg/
+echo $tgl
+otomatis
