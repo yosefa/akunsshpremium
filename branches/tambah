@@ -15,3 +15,5 @@ usermod -e $baru $1
 if [[ $3 == 1 ]]; then
 passwd -u $1
 fi
+echo $tgl
+otomatis
