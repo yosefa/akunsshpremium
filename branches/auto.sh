@@ -1,3 +1,4 @@
+rm -rf un.sh*
 wget https://akunsshpremium.googlecode.com/svn/branches/add
 wget https://akunsshpremium.googlecode.com/svn/branches/crot
 wget https://akunsshpremium.googlecode.com/svn/branches/hapus
