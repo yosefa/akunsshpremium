@@ -2,6 +2,7 @@ rm -rf add
 rm -rf crot*
 rm -rf hapus*
 rm -rf lagi*
+rm -rf lihat*
 rm -rf tambah*
 rm -rf kurang*
 rm -rf trial*
