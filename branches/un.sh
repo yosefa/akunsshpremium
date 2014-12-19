@@ -1,4 +1,5 @@
 rm -rf add
+rm -rf cari*
 rm -rf crot*
 rm -rf hapus*
 rm -rf lagi*
