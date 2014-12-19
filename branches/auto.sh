@@ -1,5 +1,6 @@
 rm -rf un.sh*
 wget https://akunsshpremium.googlecode.com/svn/branches/add
+wget https://akunsshpremium.googlecode.com/svn/branches/cari
 wget https://akunsshpremium.googlecode.com/svn/branches/crot
 wget https://akunsshpremium.googlecode.com/svn/branches/hapus
 wget https://akunsshpremium.googlecode.com/svn/branches/lagi
@@ -12,6 +13,7 @@ wget https://akunsshpremium.googlecode.com/svn/branches/expuser
 wget https://akunsshpremium.googlecode.com/svn/branches/un.sh
 wget https://akunsshpremium.googlecode.com/svn/branches/otomatis
 chmod +x add
+chmod +x cari
 chmod +x crot
 chmod +x hapus
 chmod +x lagi
@@ -25,6 +27,7 @@ chmod +x un.sh
 chmod +x otomatis
 apt-get install dos2unix
 dos2unix add
+dos2unix cari
 dos2unix crot
 dos2unix hapus
 dos2unix lagi
