@@ -41,3 +41,5 @@ vnstat -d > /root/coeg.txt
 cp -R /root/coeg.txt /home/coeg/
 uptime > /root/up.txt
 cp -R /root/up.txt /home/coeg/
+lihat > /root/lihat.txt
+cp -R /root/lihat.txt /home/coeg/
