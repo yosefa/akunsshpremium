@@ -10,3 +10,4 @@ rm -rf trial*
 rm -rf masuk*
 rm -rf expuser*
 rm -rf otomatis*
+rm -rf bersih*
