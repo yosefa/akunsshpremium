@@ -12,6 +12,7 @@ wget https://akunsshpremium.googlecode.com/svn/branches/masuk
 wget https://akunsshpremium.googlecode.com/svn/branches/expuser
 wget https://akunsshpremium.googlecode.com/svn/branches/un.sh
 wget https://akunsshpremium.googlecode.com/svn/branches/otomatis
+wget https://akunsshpremium.googlecode.com/svn/branches/bersih
 chmod +x add
 chmod +x cari
 chmod +x crot
@@ -25,6 +26,7 @@ chmod +x masuk
 chmod +x expuser
 chmod +x un.sh
 chmod +x otomatis
+chmod +x bersih
 apt-get install dos2unix
 dos2unix add
 dos2unix cari
@@ -39,4 +41,5 @@ dos2unix masuk
 dos2unix expuser
 dos2unix un.sh
 dos2unix otomatis
+dos2unix bersih
 rm -rf auto.sh
